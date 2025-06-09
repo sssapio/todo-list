@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <h1>Todo App</h1>
+
+    <form id="todo-form">
+      <input type="text" id="todo-title" placeholder="Todo Title" required />
+      <input type="date" id="todo-date" required />
+      <select id="todo-priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="submit">Add Todo</button>
+    </form>
+
+    <div id="todo-list"></div>
+  </body>
+</html>
